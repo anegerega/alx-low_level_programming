@@ -8,22 +8,22 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 	{
 	int n = rand();
+
 	srand(time(NULL));
-	printf("The number %d is ", n);
 	if (n > 0)
 	{
-	printf("positive");
+	printf(“%d is positive”, n);
 	}
 	else if (n == 0)
 	{
-	printf("zero");
+	printf(“%d is zero”, n);
 	}
 	else
 	{
-	printf("negative");
+	printf(“%d is negative”, n);
 	}
 	printf("\n");
 	return (0);
