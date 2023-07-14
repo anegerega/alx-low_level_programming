@@ -11,7 +11,7 @@
 int main()
 	{
 	srand(time(NULL));
-	int n = rand() % 201 - 100;
+	int n = rand();
 	printf("The number %d is ", n);
 	if (n > 0)
 	{
