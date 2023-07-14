@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*Main - Entry point
+* Main - A program that prints size of various data types
 *
-*Return: Always 0 (Success)
+* Return: Always 0 (Success)
 */
 
 int main(void)
