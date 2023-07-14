@@ -5,7 +5,7 @@
  * Return: ALways 0 (Success)
  */
 
-int main(void) 
+int main(void)
 {
 	int d1, d2, d3;
 
@@ -24,8 +24,8 @@ int main(void)
 									putchar(' ');
 								}
 						}
-				}
+				}	
 		}
-    putchar('\n');
-    return (0);
+	putchar('\n');
+	return (0);
 }
