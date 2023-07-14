@@ -10,8 +10,8 @@
 
 int main()
 	{
-	srand(time(NULL));
 	int n = rand();
+	srand(time(NULL));
 	printf("The number %d is ", n);
 	if (n > 0)
 	{
