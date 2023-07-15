@@ -5,11 +5,10 @@
 *
 *Return: 0 (Success)
 */
-
 int main(void)
 {
 int n;
-for (n = 0; n <= 9; n++)
+do
 {
 putchar(48 + n);
 if (n != 9)
@@ -17,7 +16,9 @@ if (n != 9)
 putchar(',');
 putchar(' ');
 }
+i++;
 }
-putchar('\n')
+while (i <= 9);
+putchar('\n');
 return (0);
 }
