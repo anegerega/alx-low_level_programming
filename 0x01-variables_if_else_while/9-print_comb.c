@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+*main - Prints all single digits on a new line with comma and space.
+*
+*Return: 0 (Success)
+*/
+
+int main(void)
+{
+int n;
+for (n = 0; n < 10; n++)
+{
+putchar(48 + n);
+putchar(',');
+putchar(' ');
+}
+return (0);
+}
