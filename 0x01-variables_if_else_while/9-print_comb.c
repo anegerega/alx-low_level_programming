@@ -8,8 +8,7 @@
 int main(void)
 {
 int n;
-do
-{
+do{
 putchar(48 + n);
 if (n != 9)
 {
@@ -17,8 +16,7 @@ putchar(',');
 putchar(' ');
 }
 n++;
-}
-while (n <= 9);
+}while (n <= 9);
 putchar('\n');
 return (0);
 }
