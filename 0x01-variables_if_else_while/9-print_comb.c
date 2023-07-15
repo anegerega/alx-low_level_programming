@@ -16,9 +16,9 @@ if (n != 9)
 putchar(',');
 putchar(' ');
 }
-i++;
+n++;
 }
-while (i <= 9);
+while (n <= 9);
 putchar('\n');
 return (0);
 }
